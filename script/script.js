@@ -7,10 +7,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function rotateTitle() {
 		const titleTimer = document.querySelector('.title-timer');
-		const daysBox = document.querySelector('.days');
 
 		titleTimer.classList.toggle('active');
-		daysBox.classList.toggle('active');
 	}
 
 	setInterval(rotateTitle, 2500);

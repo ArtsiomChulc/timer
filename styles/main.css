@@ -59,6 +59,7 @@
 
 	.wrapper {
 		width: 70%;
+		border-radius: 12px;
 	}
 
 	.wrapper span {
@@ -66,6 +67,7 @@
 	}
 
 	.wrapper div {
-		box-shadow: none;
+		box-shadow: 2px 4px 14px rgb(209, 97, 212);
+		padding: 14px;
 	}
 }
